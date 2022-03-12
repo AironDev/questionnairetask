@@ -27,7 +27,7 @@ class UpdateQuestionaireRequest extends FormRequest
             //
             'question' => 'required',
             'is_multi_choice' => 'required',
-            'options' => 'nullable',
+            'options' => 'required',
             'trigger' => 'nullable'
         ];
     }
